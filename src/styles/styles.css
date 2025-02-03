@@ -1,0 +1,21 @@
+/* styles.css */
+.task-item-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.task-item-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 300ms ease-in;
+}
+
+.task-item-exit {
+  opacity: 1;
+}
+
+.task-item-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 300ms ease-in;
+}
